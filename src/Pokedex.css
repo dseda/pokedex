@@ -1,0 +1,12 @@
+.Pokedex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-template-rows: minmax(100, auto);
+  width: 80%;
+  margin: 0 auto;
+}
+
+html {
+  text-align: center;
+}
